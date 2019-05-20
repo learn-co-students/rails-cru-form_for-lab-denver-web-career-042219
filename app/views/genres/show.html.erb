@@ -1,0 +1,9 @@
+<p id="notice"><%= notice %></p>
+
+<h1>  <strong>My Genre</strong> </h1>
+  <p>
+  <%=@genre.name %>
+</p>
+
+<%= link_to 'Edit', edit_genre_path(@genre) %> |
+<%= link_to 'Back', genres_path %>
